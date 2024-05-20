@@ -108,20 +108,23 @@ fun BusinessCardApp(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Row {
-                    Icon(imageVector = Icons.Filled.Call, contentDescription = "phone")
+                    Icon(imageVector = Icons.Filled.Call, contentDescription = "phone",
+                        tint = Color.Black)
                     Spacer(modifier = Modifier.width(16.dp))
                     TextoContacto(textoContac = phone)
                 }
                 Row {
                     Icon(
                         imageVector = Icons.Filled.AccountCircle,
-                        contentDescription = "networking"
+                        contentDescription = "networking",
+                        tint = Color.Black
                     )
                     Spacer(modifier = Modifier.width(16.dp))
                     TextoContacto(textoContac = netWorking)
                 }
                 Row {
-                    Icon(imageVector = Icons.Filled.Email, contentDescription = "Email")
+                    Icon(imageVector = Icons.Filled.Email, contentDescription = "Email",
+                        tint = Color.Black)
                     Spacer(modifier = Modifier.width(16.dp))
                     TextoContacto(textoContac = email)
                 }
