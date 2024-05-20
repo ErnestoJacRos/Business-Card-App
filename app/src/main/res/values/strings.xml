@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Business Card App</string>
+    <string name="name_text">Ernesto Jacros</string>
+    <string name="job_text">Android Developer</string>
+    <string name="phone_text">55-66-11-22-88</string>
+    <string name="email_text">correo@dominio.com</string>
+    <string name="networking_text">github.com/_User</string>
 </resources>
